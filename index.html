@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>PLM Student Health Declaration System</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./src/bootstrap.css">
+		<link rel="stylesheet" href="./src/custom.css">
+	</head>
+	<body class="alert-info">
+
+
+			<!-- HD-->
+			<br><br>
+				<div class="modal-dialog" role="document">
+					<div class="modal-content panel-primary">
+						<div class="modal-header panel-heading">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">×</span>
+							</button>
+							<img src="./src/header_logo.gif" width="90%" height="50%">
+							<br>
+						</div>
+
+                        <div class="modal-body">
+						<br>
+						<h5>
+							<b style="color:maroon" id="date_today"></b><br>
+							<b style="color:#146C94" id="name"></b><br>
+							<b style="color:maroon" id="student_id"></b>
+						</h5>  
+
+
+						<h5 align="center"><b> Student Health Declaration Saved. </b></h5>
+                        <br>
+						<h4 align="center"><b> You are cleared to enter PLM premises tomorrow,</b></h4><b> </b><h2 align="center" style="color:maroon"><b id="date_tom"></b></h2><br>
+						<h5 align="center"><b> subject to standard security and health protocols!</b></h5>
+							<br>
+						<h5 align="center"><b> Thank you for using PLM Health Declaration Form.</b></h5>
+
+						<h5 align="center"><b> Please always wear your mask, wash your hands and maintain social distancing.</b></h5>
+                        <br>
+
+						<h5 align="center" style="color:maroon"><b> Don't forget to use PLM Health Declaration the day before you go to PLM</b></h5>
+                
+						<h5 align="center" style="color:maroon"><b> to protect yourself, your loved ones and the PLM community.</b></h5>
+
+								<div class="form-group">
+								    <form method="POST" action="https://web4.plm.edu.ph/StudentHealthDeclaration/index.php" enctype="multipart/form-data">
+                                        							<div class="modal-footer">
+					
+							    
+							     <button class="btn btn-primary"><span><img class="plane" src="./paper-plane.png" alt=""></span> Back to HD Page</button>
+
+							</div>
+                                    </form>
+							</div>
+						
+					</div>
+				</div>
+			
+	
+			<div class="container-fluid" align="center">
+			<h6>Pamantasan ng Lungsod ng Maynila - Information Communication and Technology Office (ICTO)</h6>
+			</div>
+	
+	<!--?
+	            $_SESSION['idNumber'] = "";
+	            $_SESSION['fullname'] = "";
+	?-->
+	<script src="./PLM Student Health Declaration System_files/jquery.js.download"></script>
+	<script src="./PLM Student Health Declaration System_files/bootstrap.js.download"></script>
+    <script type="text/javascript"></script>
+	<script src="./src/index.js"></script>
+
+</div></body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng"><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>PLM Student Health Declaration System</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./src/bootstrap.css">
+	</head>
+<body class="alert-info">
+
+	<br><br>
+	<div class="modal-dialog" role="document">
+		<div class="modal-content panel-primary">
+			<div class="modal-header panel-heading">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<center><img src="./src/header_logo.gif" width="90%" height="50%">
+				<br>
+				</center>
+			</div>
+
+			<div class="modal-body">
+				<br>
+
+				<h5>
+					<!-- adjust here -->
+					<b id="date_today"></b><br>
+					
+					<!-- adjust here -->
+					<b id="name"></b>
+					<br>
+					<b id="student_id"></b>
+				</h5>  
+
+				<h5 align="center"><b> Student Health Declaration Saved. </b></h5>
+
+				<br>
+
+				<h4 align="center">
+					<b> You are cleared to enter PLM premises tomorrow,</b>
+				</h4>
+
+				<!-- adjust here -->
+				<h2 style="color:maroon" align="center">
+					<b id="date_tom">2023/03/15</b>
+				</h2><br>
+
+				<h5 align="center">
+					<b>subject to standard security and health protocols!</b>
+				</h5>
+
+				<br>
+
+				<h5 align="center">
+					<b>Thank you for using PLM Health Declaration Form.</b>
+				</h5>
+
+				<h5 align="center">
+					<b>Please always wear your mask, wash your hands and maintain social distancing.</b>
+				</h5>
+
+				<br>
+
+				<h5 style="color:maroon" align="center"><b>Don't forget to use PLM Health Declaration the day before you go to PLM</b></h5>
+	
+				<h5 style="color:maroon" align="center"><b>to protect yourself, your loved ones and the PLM community.</b></h5>
+
+				<div class="form-group">
+					<form method="POST" action="index.php" enctype="multipart/form-data">
+						<div class="modal-footer">
+							<button class="btn btn-primary"><span><img class="plane" src="./paper-plane.png" alt=""></span> Back to HD Page</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+			<div class="container-fluid" align="center">
+				<h6>Pamantasan ng Lungsod ng Maynila - Information Communication and Technology Office (ICTO)</h6>
+			</div>
+	</div>
+
+	
+	</body>
+
+	<!--?
+	            $_SESSION['idNumber'] = "";
+	            $_SESSION['fullname'] = "";
+	?-->
+	<script src="./src/jquery.js"></script>
+	<script src="./src/bootstrap.js"></script>
+    <script src="./src/index.js"></script>
+</html>

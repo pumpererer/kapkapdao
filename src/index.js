@@ -33,7 +33,7 @@ let hours = randomTime.getHours();
 let minutes = randomTime.getMinutes().toString().padStart(2, "0");
 hours = hours % 12;
 hours = hours ? hours : 12;
-const formattedTime = hours + ":" + minutes + " ";
+const formattedTime = hours.toString().padStart(2, "0") + ":" + minutes;
 
 // Populate elements
 dateToday.innerText = todYear + "/" + todMonth + "/" + todDate + " " + formattedTime;
